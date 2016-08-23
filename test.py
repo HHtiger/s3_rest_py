@@ -8,4 +8,4 @@ if __name__ == '__main__':
     for bucket in client.list_buckets()[1]:
         print bucket.name
 
-    client.upload_file('/root/a.png','founder-test','img/a.png',s3.X_AMZ_ACL.private)
+    client.upload_file('E:\\tiger\\bb','founder-test','img/bb',s3.X_AMZ_ACL.private)
